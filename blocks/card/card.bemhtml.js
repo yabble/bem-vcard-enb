@@ -248,7 +248,7 @@ block('card')(
             elem: 'gap'
         });
 
-        ['skype', 'github', 'twitter'].filter((prop) => data[prop]).forEach(function(prop) {
+        ['skype', 'github', 'telegram'].filter((prop) => data[prop]).forEach(function(prop) {
             content.push({
                 elem: prop,
                 content: data[prop]
@@ -311,11 +311,11 @@ block('card')(
         ];
     }),
 
-    elem('twitter').content()(function() {
+    elem('telegram').content()(function() {
         return {
             elem: 'link',
-            url: 'https://twitter.com/' + this.ctx.content,
-            content: 'twitter.com/' + this.ctx.content
+            url: 'https://telegram.me/' + this.ctx.content,
+            content: 'telegram.me/' + this.ctx.content
         };
     }),
 
