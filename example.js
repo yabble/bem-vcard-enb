@@ -9,7 +9,7 @@ module.exports = {
         ru: {
             lang: 'ru',
             name: 'Иван Иванов',
-            position: 'Разработчик интерфейсов',
+            position: 'Специалист IT-инфраструктуры датацентров',
             address: {
                 country: 'Россия',
                 city: 'Москва',
@@ -26,15 +26,15 @@ module.exports = {
                 cell: '+7 (555) 123-45-66',
                 email: 'ivanivanovich@yandex-team.ru',
                 site: 'https://ivanivanovich.ru',
-                github: 'ivanivanovich',
-                twitter: 'ivanivanovich',
+                // github: 'ivanivanovich',
+                telegram: 'ivanivanovich',
                 skype: 'ivanivanovich'
             }
         },
         en: {
             lang: 'en',
             name: 'Ivan Ivanov',
-            position: 'UI Developer',
+            position: 'IT Data Center Specialist',
             address: {
                 country: 'Russia',
                 city: 'Moscow',
@@ -52,8 +52,8 @@ module.exports = {
                 email: 'ivanivanovich@yandex-team.ru',
                 site: 'https://ivanivanovich.ru/#en',
                 skype: 'ivanivanovich',
-                github: 'ivanivanovich',
-                twitter: 'ivanivanovich'
+                // github: 'ivanivanovich',
+                telegram: 'ivanivanovich'
             }
         }
     }
