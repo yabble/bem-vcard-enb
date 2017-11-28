@@ -289,7 +289,7 @@ block('card')(
     elem('github').content()(function() {
         return {
             elem: 'link',
-            url: 'https://github.com/' + this.ctx.content,
+            url: '//github.com/' + this.ctx.content,
             content: 'github.com/' + this.ctx.content
         };
     }),
@@ -314,7 +314,7 @@ block('card')(
     elem('telegram').content()(function() {
         return {
             elem: 'link',
-            url: 'https://telegram.me/' + this.ctx.content,
+            url: '//telegram.me/' + this.ctx.content,
             content: 'telegram.me/' + this.ctx.content
         };
     }),
